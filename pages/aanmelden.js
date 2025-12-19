@@ -226,7 +226,28 @@ export default function Aanmelden() {
             <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '24px' }}>
               Vul hieronder je gegevens in om je aanmelding af te ronden.
             </p>
-            
+
+            <div style={{
+              background: 'rgba(16, 185, 129, 0.1)',
+              border: '1px solid rgba(16, 185, 129, 0.3)',
+              borderRadius: '12px',
+              padding: '20px 24px',
+              marginBottom: '24px',
+              display: 'flex',
+              alignItems: 'flex-start',
+              gap: '12px'
+            }}>
+              <span style={{ color: '#10b981', fontSize: '20px' }}>ℹ️</span>
+              <div>
+                <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '14px', marginBottom: '4px', fontWeight: '500' }}>
+                  Wat gebeurt er na je aanmelding?
+                </p>
+                <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '14px' }}>
+                  Na het invullen van het formulier en het afronden van de betaling maakt CrossFit Weesp zo snel mogelijk een account voor je aan. Je ontvangt per e-mail een bevestiging met je inloggegevens.
+                </p>
+              </div>
+            </div>
+
             <div className="embed-container" style={{ minHeight: '2300px' }}>
               <iframe
                 src="https://kilo.gymleadmachine.com/widget/form/wOlewoKR72Z2UXfn6qNB"
