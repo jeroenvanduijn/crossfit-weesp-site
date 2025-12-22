@@ -8,7 +8,7 @@
 
 body {
   font-family: 'DM Sans', -apple-system, sans-serif;
-  background-color: #0a0a0a;
+  background-color: #000000;
   color: #ffffff;
   line-height: 1.6;
 }
@@ -31,7 +31,8 @@ a {
 }
 
 .accent-text {
-  color: #10b981;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .section-title {
@@ -43,7 +44,7 @@ a {
 
 /* Hero */
 .hero-gradient {
-  background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 50%, #0a1a1a 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 50%, #0a0a0a 100%);
   position: relative;
   overflow: hidden;
 }
@@ -55,45 +56,44 @@ a {
   right: -20%;
   width: 80%;
   height: 200%;
-  background: radial-gradient(ellipse, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(50, 55, 60, 0.3) 0%, transparent 70%);
   pointer-events: none;
 }
 
 /* Buttons */
 .cta-button {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: #32373c;
   color: white;
   padding: 16px 32px;
-  border-radius: 8px;
+  border-radius: 9999px;
   font-weight: 600;
   font-size: 16px;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
   display: inline-block;
-  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
 }
 
 .cta-button:hover {
+  background: #444950;
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(16, 185, 129, 0.4);
 }
 
 .secondary-button {
   background: transparent;
   color: #ffffff;
   padding: 16px 32px;
-  border-radius: 8px;
+  border-radius: 9999px;
   font-weight: 600;
   font-size: 16px;
-  border: 2px solid rgba(255,255,255,0.2);
+  border: 2px solid rgba(255,255,255,0.3);
   cursor: pointer;
   transition: all 0.3s ease;
   display: inline-block;
 }
 
 .secondary-button:hover {
-  border-color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.6);
   background: rgba(255,255,255,0.05);
 }
 
@@ -107,7 +107,7 @@ a {
 }
 
 .feature-card:hover {
-  border-color: rgba(16, 185, 129, 0.3);
+  border-color: rgba(255,255,255,0.3);
   transform: translateY(-4px);
 }
 
@@ -121,8 +121,8 @@ a {
 }
 
 .price-card.featured {
-  border-color: #10b981;
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%);
+  border-color: #ffffff;
+  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%);
 }
 
 .price-card.featured::before {
@@ -130,7 +130,7 @@ a {
   position: absolute;
   top: 16px;
   right: -30px;
-  background: #10b981;
+  background: #32373c;
   color: white;
   padding: 4px 40px;
   font-size: 12px;
@@ -169,7 +169,7 @@ a {
 }
 
 .faq-question:hover {
-  color: #10b981;
+  color: rgba(255,255,255,0.7);
 }
 
 .faq-answer {
@@ -181,7 +181,7 @@ a {
 .step-number {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #10b981, #059669);
+  background: #32373c;
   border-radius: 50%;
   display: flex;
   align-items: center;

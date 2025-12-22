@@ -26,7 +26,7 @@ export default function Aanmelden() {
             <div style={{
               width: '40px',
               height: '40px',
-              background: 'linear-gradient(135deg, #10b981, #059669)',
+              background: '#32373c',
               borderRadius: '8px',
               display: 'flex',
               alignItems: 'center',
@@ -86,7 +86,7 @@ export default function Aanmelden() {
                     fontSize: '14px',
                     color: 'rgba(255,255,255,0.8)'
                   }}>
-                    <span style={{ color: '#10b981' }}>✓</span>
+                    <span style={{ color: '#ffffff' }}>✓</span>
                     {item}
                   </li>
                 ))}
@@ -156,11 +156,11 @@ export default function Aanmelden() {
 
               {/* Onbeperkt */}
               <div className="price-card featured" style={{ padding: '24px', textAlign: 'center' }}>
-                <div style={{ 
-                  fontSize: '11px', 
-                  textTransform: 'uppercase', 
-                  letterSpacing: '2px', 
-                  color: '#10b981', 
+                <div style={{
+                  fontSize: '11px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '2px',
+                  color: '#ffffff',
                   marginBottom: '8px',
                   fontWeight: '600'
                 }}>Unlimited</div>
@@ -198,14 +198,14 @@ export default function Aanmelden() {
           {/* Info boxes */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px', marginBottom: '48px' }} className="info-grid">
             <div className="info-card">
-              <h3 style={{ fontWeight: '600', marginBottom: '8px', color: '#10b981' }}>Overgangsperiode: 3 maanden</h3>
+              <h3 style={{ fontWeight: '600', marginBottom: '8px', color: '#ffffff' }}>Overgangsperiode: 3 maanden</h3>
               <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.7)' }}>
                 Je krijgt 3 maanden toegang bij CrossFit Weesp voor de prijs van 2 maanden. 
                 Dat is 1 maand gratis om te wennen aan je nieuwe box.
               </p>
             </div>
             <div className="info-card">
-              <h3 style={{ fontWeight: '600', marginBottom: '8px', color: '#10b981' }}>Maandelijks opzegbaar</h3>
+              <h3 style={{ fontWeight: '600', marginBottom: '8px', color: '#ffffff' }}>Maandelijks opzegbaar</h3>
               <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.7)' }}>
                 Na de overgangsperiode loopt je maandelijkse abonnement automatisch door. 
                 Je kunt altijd opzeggen, zonder vaste contractduur.
@@ -228,8 +228,8 @@ export default function Aanmelden() {
             </p>
 
             <div style={{
-              background: 'rgba(16, 185, 129, 0.1)',
-              border: '1px solid rgba(16, 185, 129, 0.3)',
+              background: 'rgba(255, 255, 255, 0.05)',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
               borderRadius: '12px',
               padding: '20px 24px',
               marginBottom: '24px',
@@ -237,7 +237,7 @@ export default function Aanmelden() {
               alignItems: 'flex-start',
               gap: '12px'
             }}>
-              <span style={{ color: '#10b981', fontSize: '20px' }}>ℹ️</span>
+              <span style={{ color: '#ffffff', fontSize: '20px' }}>ℹ️</span>
               <div>
                 <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '14px', marginBottom: '4px', fontWeight: '500' }}>
                   Wat gebeurt er na je aanmelding?
@@ -277,7 +277,7 @@ export default function Aanmelden() {
       <footer style={{ padding: '40px 0', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
         <div className="container-narrow" style={{ textAlign: 'center' }}>
           <p style={{ color: 'rgba(255,255,255,0.5)', marginBottom: '8px' }}>
-            Heb je vragen? Mail ons op <a href="mailto:info@crossfit020.nl" style={{ color: '#10b981' }}>info@crossfit020.nl</a>
+            Heb je vragen? Mail ons op <a href="mailto:info@crossfit020.nl" style={{ color: 'rgba(255,255,255,0.8)' }}>info@crossfit020.nl</a>
           </p>
           <p style={{ color: 'rgba(255,255,255,0.3)', fontSize: '14px' }}>
             CrossFit 020

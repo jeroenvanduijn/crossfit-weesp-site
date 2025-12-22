@@ -67,7 +67,7 @@ export default function Home() {
             <div style={{
               width: '40px',
               height: '40px',
-              background: 'linear-gradient(135deg, #10b981, #059669)',
+              background: '#32373c',
               borderRadius: '8px',
               display: 'flex',
               alignItems: 'center',
@@ -128,7 +128,7 @@ export default function Home() {
               { value: '15 min', label: 'Vanaf Amsterdam' }
             ].map((stat, i) => (
               <div key={i}>
-                <div style={{ fontSize: '28px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif', color: '#10b981' }}>
+                <div style={{ fontSize: '28px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif', color: '#ffffff' }}>
                   {stat.value}
                 </div>
                 <div style={{ color: 'rgba(255,255,255,0.6)', fontSize: '14px' }}>{stat.label}</div>
@@ -166,7 +166,7 @@ export default function Home() {
       </section>
 
       {/* Aanbod Section */}
-      <section style={{ padding: '80px 0', background: 'linear-gradient(180deg, rgba(16,185,129,0.05) 0%, transparent 100%)' }}>
+      <section style={{ padding: '80px 0', background: 'linear-gradient(180deg, rgba(50,55,60,0.1) 0%, transparent 100%)' }}>
         <div className="container">
           <h2 className="section-title">Trainingsaanbod</h2>
           <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '48px', maxWidth: '600px' }}>
@@ -223,15 +223,15 @@ export default function Home() {
           <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '16px', maxWidth: '600px' }}>
             Betaal 2 maanden, train 3 maanden. Daarna loopt je maandelijkse abonnement door (altijd opzegbaar).
           </p>
-          <div style={{ 
-            background: 'rgba(16, 185, 129, 0.1)', 
-            border: '1px solid rgba(16, 185, 129, 0.3)',
+          <div style={{
+            background: 'rgba(255, 255, 255, 0.05)',
+            border: '1px solid rgba(255, 255, 255, 0.2)',
             borderRadius: '12px',
             padding: '16px 24px',
             marginBottom: '48px',
             maxWidth: '600px'
           }}>
-            <span style={{ color: '#10b981', fontWeight: '600' }}>✓ 1 maand gratis</span>
+            <span style={{ color: '#ffffff', fontWeight: '600' }}>✓ 1 maand gratis</span>
             <span style={{ color: 'rgba(255,255,255,0.6)', marginLeft: '8px' }}>bij de overstap naar CrossFit Weesp</span>
           </div>
           
@@ -250,7 +250,7 @@ export default function Home() {
               <ul style={{ listStyle: 'none', marginBottom: '32px' }}>
                 {['2x per week groepstraining', 'App Pro functies', 'Voedingslogboek'].map((item, i) => (
                   <li key={i} style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ color: '#10b981' }}>✓</span> {item}
+                    <span style={{ color: '#ffffff' }}>✓</span> {item}
                   </li>
                 ))}
                 {['Vrij fitnessen', 'Maand bevriezen'].map((item, i) => (
@@ -278,7 +278,7 @@ export default function Home() {
               <ul style={{ listStyle: 'none', marginBottom: '32px' }}>
                 {['3x per week groepstraining', 'Vrij fitnessen', 'App Pro functies', 'Voedingslogboek'].map((item, i) => (
                   <li key={i} style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ color: '#10b981' }}>✓</span> {item}
+                    <span style={{ color: '#ffffff' }}>✓</span> {item}
                   </li>
                 ))}
                 {['Maand bevriezen'].map((item, i) => (
@@ -294,7 +294,7 @@ export default function Home() {
 
             {/* Onbeperkt */}
             <div className="price-card featured" style={{ flex: '1 1 280px' }}>
-              <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '2px', color: '#10b981', marginBottom: '8px' }}>Unlimited</div>
+              <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '2px', color: '#ffffff', marginBottom: '8px' }}>Unlimited</div>
               <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '4px' }}>Onbeperkt</h3>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px', marginBottom: '8px' }}>
                 <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€179,90</span>
@@ -312,7 +312,7 @@ export default function Home() {
                   '1 maand per jaar bevriezen'
                 ].map((item, i) => (
                   <li key={i} style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ color: '#10b981' }}>✓</span> {item}
+                    <span style={{ color: '#ffffff' }}>✓</span> {item}
                   </li>
                 ))}
               </ul>
@@ -354,7 +354,7 @@ export default function Home() {
       </section>
 
       {/* Locatie */}
-      <section style={{ padding: '80px 0', background: 'linear-gradient(180deg, transparent 0%, rgba(16,185,129,0.05) 100%)' }}>
+      <section style={{ padding: '80px 0', background: 'linear-gradient(180deg, transparent 0%, rgba(50,55,60,0.1) 100%)' }}>
         <div className="container">
           <h2 className="section-title">Locatie</h2>
           <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '48px', maxWidth: '600px' }}>
@@ -363,7 +363,7 @@ export default function Home() {
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }} className="grid-2">
             <div className="feature-card">
-              <h3 style={{ fontWeight: '600', fontSize: '20px', marginBottom: '8px', color: '#10b981' }}>CrossFit Weesp</h3>
+              <h3 style={{ fontWeight: '600', fontSize: '20px', marginBottom: '8px', color: '#ffffff' }}>CrossFit Weesp</h3>
               <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '16px' }}>
                 Pampuslaan 153<br />
                 1382 JN Weesp
@@ -372,12 +372,12 @@ export default function Home() {
                 Onderdeel van Athos Coaching, powered by Yamato Gym.
               </p>
               <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                <a href="mailto:info@crossfitweesp.nl" style={{ color: '#10b981', fontSize: '14px' }}>info@crossfitweesp.nl</a>
-                <a href="tel:0652421183" style={{ color: '#10b981', fontSize: '14px' }}>06-52421183</a>
+                <a href="mailto:info@crossfitweesp.nl" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '14px' }}>info@crossfitweesp.nl</a>
+                <a href="tel:0652421183" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '14px' }}>06-52421183</a>
               </div>
             </div>
             <div className="feature-card">
-              <h3 style={{ fontWeight: '600', fontSize: '20px', marginBottom: '8px', color: '#10b981' }}>Bereikbaarheid</h3>
+              <h3 style={{ fontWeight: '600', fontSize: '20px', marginBottom: '8px', color: '#ffffff' }}>Bereikbaarheid</h3>
               <ul style={{ listStyle: 'none' }}>
                 {[
                   '~15 min rijden vanaf Amsterdam Zuidoost',
@@ -386,7 +386,7 @@ export default function Home() {
                   'Goed bereikbaar met OV'
                 ].map((item, i) => (
                   <li key={i} style={{ padding: '8px 0', color: 'rgba(255,255,255,0.7)', fontSize: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <span style={{ color: '#10b981' }}>→</span> {item}
+                    <span style={{ color: 'rgba(255,255,255,0.5)' }}>→</span> {item}
                   </li>
                 ))}
               </ul>
@@ -394,7 +394,7 @@ export default function Home() {
           </div>
           
           <div style={{ marginTop: '24px', textAlign: 'center' }}>
-            <a href="https://maps.google.com/?q=Pampuslaan+153+Weesp" target="_blank" rel="noopener noreferrer" style={{ color: '#10b981', fontWeight: '500' }}>
+            <a href="https://maps.google.com/?q=Pampuslaan+153+Weesp" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.8)', fontWeight: '500' }}>
               Bekijk op Google Maps →
             </a>
           </div>
@@ -451,7 +451,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section style={{ padding: '100px 0', textAlign: 'center', background: 'linear-gradient(180deg, transparent 0%, rgba(16,185,129,0.1) 100%)' }}>
+      <section style={{ padding: '100px 0', textAlign: 'center', background: 'linear-gradient(180deg, transparent 0%, rgba(50,55,60,0.15) 100%)' }}>
         <div className="container">
           <h2 style={{ 
             fontFamily: 'Space Grotesk, sans-serif',
@@ -485,7 +485,7 @@ export default function Home() {
             </div>
             <div style={{ textAlign: 'right' }}>
               <div style={{ color: 'rgba(255,255,255,0.6)', fontSize: '14px' }}>
-                Vragen? Mail naar <a href="mailto:info@crossfit020.nl" style={{ color: '#10b981' }}>info@crossfit020.nl</a>
+                Vragen? Mail naar <a href="mailto:info@crossfit020.nl" style={{ color: 'rgba(255,255,255,0.8)' }}>info@crossfit020.nl</a>
               </div>
             </div>
           </div>
